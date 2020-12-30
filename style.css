@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
-    color: #835d8c;
 }
 
 #card {
@@ -11,13 +10,18 @@
     width: 600px;
     padding: 200px 100px 100px;
     margin: 100px auto 0;
-    box-shadow: 0 10px rgba(0,0,0,0.3);
-    
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    transition: 3s;
+}
+
+#card:hover {
+    transform: scale(0.9);
 }
 
 #content {
-    background: rgba(117, 137, 146, 0.247);
-    padding: 10px 20px;
+    background: rgba(159, 161, 170, 0.247);
+    padding: 50px 100px 30px 20px;
+    color: #4f2774;
     
 }
 
@@ -29,7 +33,16 @@ ul {
     padding-left: 30px;
     padding-top: 20px;
 }
-#title {
-    text-transform: uppercase;
-    opacity: 0.05;
+
+li {
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 50px;
+    padding-left: 50px;
+    opacity: 0.03;
+    margin-top: 50px;
 }
